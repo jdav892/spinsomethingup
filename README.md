@@ -1,1 +1,1 @@
-Web server files to quickly spin something when needed
+Web server files to quickly spin up a server when needed
