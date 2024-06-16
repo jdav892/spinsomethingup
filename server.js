@@ -23,6 +23,7 @@ const server = http.createServer((req, res) => {
         });
     }
     else if (page =='/placeHolderOne') {
+// placeholder examples for html files that can be copy pasted
         fs.readFile('placeHolderOne.html', function(err, data) {
             if (err){
                 console.error(err);
