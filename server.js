@@ -98,6 +98,7 @@ const server = http.createServer((req, res) => {
 
         });
     }else{
+// a simple way to catch errors, can be more meticulous with error throwing however that isn't the point of this template file
         console.err("Page not found");
         res.writeHead(404, {'Content-Type' : 'text/plain'});
         res.write('404 Page Not Found');
