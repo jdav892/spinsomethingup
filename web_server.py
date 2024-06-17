@@ -15,7 +15,7 @@ def run(server_class = HTTPServer, handler_class = CustomHTTPRequestHandler, por
     httpd = server_class(server_address, handler_class)
     print(f"Starting httpd server on port {port}....")
     httpd.serve_forever()
-#script is being executed directly and not imported
+"""script is being executed directly and not imported"""
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     run()
